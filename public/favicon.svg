@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="truckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a56db" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="24" fill="url(#truckGrad)" />
+  <!-- Truck container/body -->
+  <path d="M22 36h34v24H22V36z" fill="#ffffff" />
+  <!-- Truck cabin -->
+  <path d="M56 42l14 4v14H56V42z" fill="#ffffff" opacity="0.9" />
+  <!-- Windshield -->
+  <path d="M63 46.5l5 1.5v6h-5v-7.5z" fill="#115e59" opacity="0.7" />
+  <!-- Front and rear wheels -->
+  <circle cx="32" cy="66" r="7" fill="#0f172a" />
+  <circle cx="32" cy="66" r="3" fill="#ffffff" />
+  <circle cx="60" cy="66" r="7" fill="#0f172a" />
+  <circle cx="60" cy="66" r="3" fill="#ffffff" />
+  <!-- Motion trails -->
+  <rect x="10" y="40" width="8" height="3" rx="1.5" fill="#ffffff" opacity="0.6" />
+  <rect x="6" y="47" width="12" height="3" rx="1.5" fill="#ffffff" opacity="0.8" />
+  <rect x="10" y="54" width="8" height="3" rx="1.5" fill="#ffffff" opacity="0.6" />
+</svg>

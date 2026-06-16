@@ -1,0 +1,7 @@
+/* App-level styles – most styling is in index.css and MUI theme */
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
